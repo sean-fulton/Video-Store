@@ -1,0 +1,11 @@
+ .containerOne {
+	 width: 100%;
+	 height: 300px;
+ }
+ 
+ .navBar {
+	 background-color:  red;
+	 position: center;
+	 height: 100px; 
+	 width: 80%;
+ }
