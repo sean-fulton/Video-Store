@@ -22,15 +22,15 @@
             <body>
                 <!--1. New Releases-->
                 <h2>New Releases:</h2>
-                <xsl:apply-templates select="/videoStore/movies/newReleases/movie/movieTitle"/>
+                <xsl:apply-templates select="/videoStore/movies/movie/newReleases/../movieTitle"/>
                 
                 <!--2. Classics-->
                 <h2>Classic Movies:</h2>
-                <xsl:apply-templates select="/videoStore/movies/classics/movie/movieTitle"/>   
+                <xsl:apply-templates select="/videoStore/movies/movie/classics/../movieTitle"/>   
                 
                 <!--3. Best Sellers-->
                 <h2>Best Sellers:</h2>
-                <xsl:apply-templates select="/videoStore/movies/bestSellers/movie/movieTitle"/>  
+                <xsl:apply-templates select="/videoStore/movies/movie/bestSellers/../movieTitle"/>  
                 
             </body>
         </html>

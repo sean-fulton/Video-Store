@@ -6,7 +6,6 @@ and open the template in the editor.
 -->
 <videoStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="VideoStore.xsd">
     <movies> 
-        <newReleases>
             <movie id="124-17">
                 <movieTitle>Onward</movieTitle>
                 <description>Teenage elf brothers Ian and Barley embark on a magical quest to spend one more day with their late father.</description>
