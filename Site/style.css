@@ -38,7 +38,7 @@
 }
 .info {
 	position: relative;
-	font-size: x-large;
+	
 	float: left;
 	left: 10%;
 }
@@ -47,7 +47,7 @@
 	height: 76px;
 	position: relative;
 	float: left;
-	left: 32px;
+	left: 25px;
 	top: 35px;
 }
 .mission {
@@ -57,8 +57,8 @@
 	left: 10%;
 }
 #mission {
-	height: 101px;
-	width: 108px;
+	height: 76px;
+	width: 76px;
 	position: relative;
 	float: left;
 	top: 26px;
