@@ -36,13 +36,13 @@
 	float: left;
 	top: 35px;
 }
-.about {
+.info {
 	position: relative;
 	font-size: x-large;
 	float: left;
 	left: 10%;
 }
-#about {
+#info {
 	width: 76px;
 	height: 76px;
 	position: relative;
