@@ -22,7 +22,7 @@
             <body>
                 <!--1. New Releases-->
                 <h2>New Releases:</h2>
-                <xsl:apply-templates select="/videoStore/movies/movie/newReleases/../movieTitle"/>
+                <xsl:apply-templates select="/videoStore/movies/movie/newReleases/../movieTitle"/> 
                 
                 <!--2. Classics-->
                 <h2>Classic Movies:</h2>
