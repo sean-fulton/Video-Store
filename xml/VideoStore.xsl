@@ -20,7 +20,7 @@
                 <title>VideoStore.xsl</title>
             </head>
             <body>
-                <!--1. New Releases-->
+<!--1. New Releases-->
                 <h2>New Releases:</h2>
                     
                 <table>
@@ -29,42 +29,77 @@
                         <th>Description</th>
                         <th>Genre</th>
                         <th>Quantity</th>
-                        <th>Price</th>
+                        <th>Price (€)</th>
                     </tr>
+                    <xsl:apply-templates select="/videoStore/movies/movie/newReleases/.."/>
                 </table>
-                <xsl:apply-templates select="/videoStore/movies/movie/newReleases/../movieTitle"/> 
                 
                 <!--2. Classics-->
                 <h2>Classic Movies:</h2>
-                <xsl:apply-templates select="/videoStore/movies/movie/classics/../movieTitle"/>   
+                
+                <table>
+                    <tr>
+                        <th>Movie Title</th>
+                        <th>Description</th>
+                        <th>Genre</th>
+                        <th>Quantity</th>
+                        <th>Price (€)</th>
+                    </tr>
+                    <xsl:apply-templates select="/videoStore/movies/movie/classics/.."/>
+                </table>
+  
                 
                 <!--3. Best Sellers-->
                 <h2>Best Sellers:</h2>
-                <xsl:apply-templates select="/videoStore/movies/movie/bestSellers/../movieTitle"/>  
+                
+                <table>
+                    <tr>
+                        <th>Movie Title</th>
+                        <th>Description</th>
+                        <th>Genre</th>
+                        <th>Quantity</th>
+                        <th>Price (€)</th>
+                    </tr>
+                    <xsl:apply-templates select="/videoStore/movies/movie/bestSellers/.."/>
+                </table>
                 
             </body>
         </html>
     </xsl:template>
     
     <!--1. New Releases-->
-    <xsl:template match="movieTitle">
-        <td>
-            <xsl:value-of select="." />
-        </td>
+    <xsl:template match="movie">
+        <tr>
+            <td>
+                <xsl:value-of select="movieTitle" />
+            </td>
+            <td>
+                <xsl:value-of select="description" />
+            </td>
+            <td>
+                <xsl:value-of select="genre" />
+            </td>
+            <td>
+                <xsl:value-of select="quantity" />
+            </td>
+            <td>
+                <xsl:value-of select="price" />
+            </td>
+        </tr>
     </xsl:template>
     
     <!--2. Classics-->
-    <xsl:template match="movieTitle">
+    <!--    <xsl:template match="movieTitle">
         <td>
             <xsl:value-of select="." />
         </td>
-    </xsl:template>
+    </xsl:template>-->
     
     <!--3. Best Sellers-->
-    <xsl:template match="movieTitle">
+    <!--    <xsl:template match="movieTitle">
         <td>
             <xsl:value-of select="." />
         </td>
-    </xsl:template>
+    </xsl:template>-->
 
 </xsl:stylesheet>
