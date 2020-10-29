@@ -26,6 +26,7 @@
                 <table>
                     <tr>
                         <th>Movie Title</th>
+                        <th>Product ID</th>
                         <th>Description</th>
                         <th>Genre</th>
                         <th>Quantity</th>
@@ -40,6 +41,7 @@
                 <table>
                     <tr>
                         <th>Movie Title</th>
+                        <th>Product ID</th>
                         <th>Description</th>
                         <th>Genre</th>
                         <th>Quantity</th>
@@ -55,6 +57,7 @@
                 <table>
                     <tr>
                         <th>Movie Title</th>
+                        <th>Product ID</th>
                         <th>Description</th>
                         <th>Genre</th>
                         <th>Quantity</th>
@@ -72,6 +75,9 @@
         <tr>
             <td>
                 <xsl:value-of select="movieTitle" />
+            </td>
+            <td>
+                <xsl:value-of select="@id" />
             </td>
             <td>
                 <xsl:value-of select="description" />
