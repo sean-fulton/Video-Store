@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-
 <!--
     Document   : VideoStore.xsl
     Created on : 23 October 2020, 18:40
@@ -20,7 +19,8 @@
                 <title>VideoStore.xsl</title>
             </head>
             <body>
-<!--1. New Releases-->
+                
+                <!--1. New Releases-->
                 <h2>New Releases:</h2>
                     
                 <table>
@@ -29,7 +29,7 @@
                         <th>Description</th>
                         <th>Genre</th>
                         <th>Quantity</th>
-                        <th>Price (€)</th>
+                        <th>Price</th>
                     </tr>
                     <xsl:apply-templates select="/videoStore/movies/movie/newReleases/.."/>
                 </table>
@@ -43,7 +43,7 @@
                         <th>Description</th>
                         <th>Genre</th>
                         <th>Quantity</th>
-                        <th>Price (€)</th>
+                        <th>Price</th>
                     </tr>
                     <xsl:apply-templates select="/videoStore/movies/movie/classics/.."/>
                 </table>
@@ -58,7 +58,7 @@
                         <th>Description</th>
                         <th>Genre</th>
                         <th>Quantity</th>
-                        <th>Price (€)</th>
+                        <th>Price</th>
                     </tr>
                     <xsl:apply-templates select="/videoStore/movies/movie/bestSellers/.."/>
                 </table>
