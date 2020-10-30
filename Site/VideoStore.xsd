@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="videoStore">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="movies">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="movie" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="movieTitle" type="xs:String"/>
+                                        <xs:element name="description" type="xs:String"/>
+                                        <xs:element name="genre" type="xs:String"/>
+                                        <xs:element name="quantity" type="xs:integer"/>
+                                        <xs:element name="price" type="xs:decimal"/>    
+                                        <xs:element name="newReleases"/>  
+                                        <xs:element name="classics"/>
+                                        <xs:element name="bestSellers"/>
+                                        <xs:element name="lowstock"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:String"/>
+                                </xs:complexType> 
+                            </xs:element> 
+                        </xs:sequence>
+                    </xs:complexType> 
+                </xs:element> 
+            </xs:sequence>
+        </xs:complexType> 
+    </xs:element> 
+</xs:schema>

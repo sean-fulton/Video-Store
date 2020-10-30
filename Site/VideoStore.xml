@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="VideoStore.xsl"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<videoStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="VideoStore.xsd">
+    <movies> 
+        <movie id="124-17">
+            <movieTitle>Onward</movieTitle>
+            <description>Teenage elf brothers Ian and Barley embark on a magical quest to spend one more day with their late father.</description>
+            <genre>Animated Family/Comedy</genre>
+            <quantity>36</quantity>
+            <price>12.99</price>
+            <newReleases/>
+        </movie>
+        <movie id="567-17">
+            <movieTitle>Sonic The Hedgehog</movieTitle>
+            <description>Powered with incredible speed, Sonic embraces his new home on Earth -- until he accidentally knocks out the power grid, sparking the attention of uncool evil genius Dr. Robotnik.</description>
+            <genre>Animated Family/Comedy</genre>
+            <quantity>28</quantity>
+            <price>12.50</price>
+            <newReleases/>
+        </movie>
+        <movie id="445-17">
+            <movieTitle>Bloodshot</movieTitle>
+            <description>Teenage elf brothers Ian and Barley embark on a magical quest to spend one more day with their late father.</description>
+            <genre>Action/Adventure</genre>
+            <quantity>40</quantity>
+            <price>13.99</price>
+            <newReleases/>
+        </movie>
+        <movie id="546-17">
+            <movieTitle>Harley Quinn: Birds of Prey</movieTitle>
+            <description>It's open season on Harley Quinn when her explosive breakup with the Joker puts a big fat target on her back.</description>
+            <genre>Action/Superhero</genre>
+            <quantity>5</quantity>
+            <price>12.99</price>
+            <newReleases/>
+            <lowstock/>
+        </movie>
+        <movie id="453-17">
+            <movieTitle>Dolittle</movieTitle>
+            <description>Dr. John Dolittle lives in solitude behind the high walls of his lush manor in 19th-century England. His only companionship comes from an array of exotic animals that he speaks to on a daily basis.</description>
+            <genre>Adventure/Family</genre>
+            <quantity>31</quantity>
+            <price>11.99</price>
+            <newReleases/>
+        </movie>
+        <movie id="534-17">
+            <movieTitle>Artemis Fowl</movieTitle>
+            <description>Artemis Fowl is a 12-year-old genius and descendant of a long line of criminal masterminds. He soon finds himself in an epic battle against a race of powerful underground fairies who may be behind his father's disappearance.</description>
+            <genre>Fantasy/Sci-fi</genre>
+            <quantity>25</quantity>
+            <price>10.50</price>
+            <newReleases/>
+        </movie>  
+        <movie id="564-36">
+            <movieTitle>Home Alone</movieTitle>
+            <description>Eight-year-old Kevin is accidentally left behind when his family leaves for France. At first, he is happy to be in charge, but when thieves try to break into his home, he tries to put up a fight.</description>
+            <genre>Family/Comedy</genre>
+            <quantity>45</quantity>
+            <price>7.50</price>
+            <classics/>
+        </movie>
+        <movie id="819-36">
+            <movieTitle>Die Hard</movieTitle>
+            <description>Hoping to spend Christmas with his estranged wife, detective John McClane arrives in LA. However, he learns about a hostage situation in an office building and his wife is one of the hostages.</description>
+            <genre>Action/Thriller</genre>
+            <quantity>18</quantity>
+            <price>6.50</price>
+            <classics/>
+        </movie> 
+        <movie id="192-36">
+            <movieTitle>Back to the Future</movieTitle>
+            <description>Marty travels back in time using an eccentric scientist's time machine. However, he must make his high-school-aged parents fall in love in order to return to the present.</description>
+            <genre>Sci-fi/Adventure</genre>
+            <quantity>25</quantity>
+            <price>8.35</price>
+            <classics/>
+        </movie> 
+        <movie id="579-36">
+            <movieTitle>Raiders of the Lost Arc</movieTitle>
+            <description>Archaeology professor Indiana Jones ventures to seize a biblical artefact known as the Ark of the Covenant. While doing so, he puts up a fight against Renee and a troop of Nazis.</description>
+            <genre>Adventure/Action</genre>
+            <quantity>30</quantity>
+            <price>10.49</price>
+            <classics/>
+        </movie> 
+        <movie id="581-36">
+            <movieTitle>Alien</movieTitle>
+            <description>The crew of a spacecraft, Nostromo, intercept a distress signal from a planet and set out to investigate it. However, to their horror, they are attacked by an alien which later invades their ship.</description>
+            <genre>Horror/Sci-fi</genre>
+            <quantity>13</quantity>
+            <price>7.85</price>
+            <classics/>
+        </movie> 
+        <movie id="129-36">
+            <movieTitle>Predator</movieTitle>
+            <description>Dutch and his team are out on a mission to rescue a group of hostages in Central America. There, they discover that they are being targeted by an extraterrestrial warrior.</description>
+            <genre>Action/Sci-fi></genre>
+            <quantity>24</quantity>
+            <price>9.50</price>
+            <classics/>
+        </movie>  
+        <movie id="784-57">
+            <movieTitle>Avengers: Endgame</movieTitle>
+            <description>After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</description>
+            <genre>Action/Sci-fi</genre>
+            <quantity>8</quantity>
+            <price>13.50</price>
+            <bestSellers/>
+            <lowstock/>
+        </movie> 
+        <movie id="234-57">
+            <movieTitle>Avatar</movieTitle>
+            <description>Jake, who is paraplegic, replaces his twin on the Na'vi inhabited Pandora for a corporate mission. After the natives accept him as one of their own, he must decide where his loyalties lie.</description>
+            <genre>Action/Sci-fi</genre>
+            <quantity>16</quantity>
+            <price>12.99</price>
+            <bestSellers/>
+        </movie> 
+        <movie id="332-57">
+            <movieTitle>Joker</movieTitle>
+            <description>Arthur Fleck, a party clown, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of crime and chaos.</description>
+            <genre>Crime/Drama</genre>
+            <quantity>6</quantity>
+            <price>9.99</price>
+            <bestSellers/>
+            <lowstock/>
+        </movie> 
+    </movies>
+</videoStore>
