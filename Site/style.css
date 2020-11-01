@@ -69,13 +69,4 @@
 	color: yellow;
 	}
 
-#background {
-	z-index: -1;
-	position: absolute;
-	height: 640px;
-	width: 100%;
-	top: 0px;
-	left: 0px;
-}
-
 
