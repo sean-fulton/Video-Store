@@ -22,14 +22,15 @@ th, td {
     text-align: left;
 }
 
-tr:nth-child(even) {
+/* Reference CSS code: https://www.w3schools.com/css/css_table.asp */
+tr:nth-child(even) {     
     background-color: #eee;
 }
 
 tr:nth-child(odd) {
     background-color: #fff;
 }
-
+/*Reference finished*/
 th {
     background-color: black;
     color: white;
