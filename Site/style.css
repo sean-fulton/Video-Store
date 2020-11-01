@@ -35,91 +35,16 @@
 	 border: 5px solid yellow;
 	 border-radius: 3px;
  }
- .home {
-	position: relative;
-	font-size: x-large;
-	float: left;
-	left: 10%;
-}
-
-#home {
-	width: 77px;
-	height: 77px;
+ .home, .info, .mission, .search, .contact, .products {
 	position: relative;
 	float: left;
-	top: 35px;
-}
-.info {
-	position: relative;
-	
-	float: left;
-	left: 10%;
-}
-#info {
-	width: 76px;
-	height: 76px;
-	position: relative;
-	float: left;
+	padding: 25px;
 	left: 25px;
-	top: 35px;
-}
-.mission {
-	position: relative;
-	font-size: x-large;
-	float: left;
-	left: 10%;
-}
-#mission {
-	height: 76px;
-	width: 76px;
-	position: relative;
-	float: left;
-	top: 26px;
-	left: 50px;
-}
- .search {
-	 position: relative;
-	 font-size: x-large;
-	 float: left;
-	 left: 10%;
- }
-
- #search {
-	height: 81px;
-	width: 81px;
-	position: relative;
-	float: left;
-	top: 35px;
-	left: 58px;
-}
- .contact{
-	position: relative;
-	font-size: x-large;
-	float: left;
-	left: 10%;
-}
-#contact {
-	height: 77px;
-	width: 77px;
-	position: relative;
-	float: left;
-	top: 35px;
-	left: 75px;
-}
-.products {
-	position: relative;
-	font-size: x-large;
-	float: left;
-	left: 10%;
-}
-
-#products {
-	height: 60px;
-	width: 105px;
-	position: relative;
-	float: left;
-	top: 47px;
-	left: 105px;
+	font-size: large;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	color: yellow;
+	top: 25%;
 }
 
 
