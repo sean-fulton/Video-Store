@@ -13,7 +13,7 @@ function searchFunction() {
     inputUpper = input.value.toUpperCase(); // inputUpper is set as the upper case of input.
 
     for (var i = 0; i < tr.length; i++) { //for loop to loop through tr tags of 'myTable' in the HTML.
-        td = tr[i].getElementsByTagName("td")[0]; // variable td is set to the current instance of i through the loop which loops through first index of td elements in html. 
+        td = tr[i].getElementsByTagName("td")[1]; // variable td is set to the current instance of i through the loop which loops through first index of td elements in html. 
         if(td){
             titleText = td.innerHTML; // including first index of td elements as titleText.
             if (titleText.toUpperCase().indexOf(inputUpper) > -1) { 
