@@ -1,7 +1,7 @@
 //this script file is for the search field.
 function searchFunction() {
     var input; // input of user from the input tag
-    var prodID; // content of the second row td's
+    var prodID; // content of the second row td's which hold the Product ID of products.
     var table; // array variable to hold and index 'myTable' from the HTML.
     var tr; // tr variable is needed to hold the tr elements in 'myTable'.
     var td; // td variable is needed to hold the td elements.'.
@@ -21,6 +21,5 @@ function searchFunction() {
                 tr[i].style.display = "none"; // if a title does not match have a letter of the input the the css is set to "none" to remove from search.
             }
         }
-
     }
 }
