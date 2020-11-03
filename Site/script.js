@@ -11,14 +11,14 @@ function searchFunction() {
     tr = table.getElementsByTagName("tr"); //tr variable is cast as an array to hold all tr elements of 'myTable' in the html.
 
     for (var i = 0; i < tr.length; i++) { //for loop to loop through tr tags of 'myTable' in the HTML.
-        td = tr[i].getElementsByTagName("td")[1]; // variable td is set to the current instance of i through the loop which loops through first index of td elements in html. 
+        td = tr[i].getElementsByTagName("td")[1]; // variable td is set to the current index of i through the loop which loops through Product IDs of td elements in html. 
         if(td){
             prodID = td.innerHTML; // including first index of td elements as prodID.
             if (prodID == input) { 
                 tr[i].style.display = ""; // if the input from the search bar includes content of the titles the display is set to nothing to include in the search.
             }
             else {
-                tr[i].style.display = "none"; // if a title does not match have a letter of the input the the css is set to "none" to remove from search.
+                tr[i].style.display = "none"; // if a title does not match the input the the css is set to "none" to remove that entry from the table.
             }
         }
     }
