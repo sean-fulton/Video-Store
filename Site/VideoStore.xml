@@ -38,7 +38,7 @@ and open the template in the editor.
             <quantity>5</quantity>
             <price>12.99</price>
             <newReleases/>
-            <lowstock/>
+            <lowStock/>
         </movie>
         <movie id="453-17">
             <movieTitle>Dolittle</movieTitle>
@@ -111,7 +111,7 @@ and open the template in the editor.
             <quantity>8</quantity>
             <price>13.50</price>
             <bestSellers/>
-            <lowstock/>
+            <lowStock/>
         </movie> 
         <movie id="234-57">
             <movieTitle>Avatar</movieTitle>
@@ -128,7 +128,7 @@ and open the template in the editor.
             <quantity>6</quantity>
             <price>9.99</price>
             <bestSellers/>
-            <lowstock/>
+            <lowStock/>
         </movie> 
     </movies>
 </videoStore>
