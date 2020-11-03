@@ -68,11 +68,25 @@
                     <xsl:apply-templates select="/videoStore/movies/movie/bestSellers/.."/>
                 </table>
                 
+                <!--4. Low Stock-->
+                <h2 class="lowStock">Low Stock</h2>
+                
+                <table>
+                    <tr>
+                        <th>Movie Title</th>
+                        <th>Product ID</th>
+                        <th>Description</th>
+                        <th>Genre</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                    <xsl:apply-templates select="/videoStore/movies/movie/lowStock/.."/>
+                </table>
+                
             </body>
         </html>
     </xsl:template>
     
-    <!--1. New Releases-->
     <xsl:template match="movie">
         <tr>
             <td>
@@ -96,18 +110,4 @@
         </tr>
     </xsl:template>
     
-    <!--2. Classics-->
-    <!--    <xsl:template match="movieTitle">
-        <td>
-            <xsl:value-of select="." />
-        </td>
-    </xsl:template>-->
-    
-    <!--3. Best Sellers-->
-    <!--    <xsl:template match="movieTitle">
-        <td>
-            <xsl:value-of select="." />
-        </td>
-    </xsl:template>-->
-
 </xsl:stylesheet>

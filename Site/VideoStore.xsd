@@ -25,7 +25,7 @@ and open the template in the editor.
                                         <xs:element name="newReleases"/>  
                                         <xs:element name="classics"/>
                                         <xs:element name="bestSellers"/>
-                                        <xs:element name="lowstock"/>
+                                        <xs:element name="lowStock"/>
                                     </xs:sequence>
                                     <xs:attribute name="id" type="xs:String"/>
                                 </xs:complexType> 
