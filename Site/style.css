@@ -1,3 +1,7 @@
+body {
+	background-color: lightgray;
+}
+ 
  .containerOne {
 	 width: 100%;
  }
@@ -5,7 +9,7 @@
  .containerTwo {
 	 width: 100%;
 	 background-color: red;
-	 height: 115px;
+	 height: 325px;
 	 border-radius: 7px;
 	 position: relative;
 	 bottom: 80px;
@@ -59,6 +63,7 @@
 	color: yellow;
 	text-shadow: 2px 2px black;
 	text-align: center;
+	font-size: 80px;
 }
 
 .welcome1, .about2, .contact2, .mission2 {
@@ -69,6 +74,7 @@
 	color: yellow;
 	text-align: center;
 	padding: 5px;
+	font-size: 35px;
 	}
 
 h2 {
